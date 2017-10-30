@@ -65,7 +65,7 @@ public static void main(String[] args) {
 		Item testItem1 = Item.WRENCH;
 		Item testItem2 = Item.DRILL;
 		
-		driver.get("http://skuid-qa-eval.force.com/WebOrderScreen");
+		driver.get("http://test.force.com/WebOrderScreen");
 
 		AddItem(testItem1);
 		AddItem(testItem2);
